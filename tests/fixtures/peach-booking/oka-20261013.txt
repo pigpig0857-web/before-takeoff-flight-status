@@ -1,0 +1,175 @@
+- main:
+  - button:
+  - list:
+    - link "Search":
+      - /url: https://booking.flypeach.com/en/
+      - generic: Search
+    - generic: Select Flight
+    - generic: Passenger Details
+    - generic: Select Options
+    - generic: Confirm / Payment
+  - text: Please log in if you have a Peach Profile Account
+  - button "Login":
+    - text: Login
+  - heading "1 stage" [level=3]
+  - generic: Taipei
+  - generic: (Taoyuan)
+  - generic: Okinawa
+  - generic: (Naha)
+  - generic: Adult
+  - generic: ×
+  - generic: "1"
+  - generic: Child
+  - generic: ×
+  - generic: "0"
+  - generic: Infant
+  - generic: ×
+  - generic: "0"
+  - button "Refine your search":
+    - text: Refine your search
+  - generic: One-way
+  - radio "One-way" [checked]
+  - generic: Roundtrip
+  - radio "Roundtrip"
+  - generic: Multiple cities
+  - radio "Multiple cities"
+  - generic: From
+  - button "TPE Taipei (Taoyuan)":
+    - generic: TPE
+    - generic: Taipei
+    - generic: (Taoyuan)
+  - button:
+  - generic: To
+  - button "OKA Okinawa (Naha)":
+    - generic: OKA
+    - generic: Okinawa
+    - generic: (Naha)
+  - generic: Departure Date
+  - button "2026/10/13(Tue)":
+    - generic: 2026/10/13(Tue)
+  - generic: Adult
+  - generic: Child
+  - generic: Infant
+  - combobox:
+    - option "1" [selected]
+    - option "2"
+    - option "3"
+    - option "4"
+    - option "5"
+    - option "6"
+    - option "7"
+    - option "8"
+    - option "9"
+  - combobox:
+    - option "0" [selected]
+    - option "1"
+    - option "2"
+    - option "3"
+    - option "4"
+    - option "5"
+    - option "6"
+    - option "7"
+    - option "8"
+  - combobox:
+    - option "0" [selected]
+    - option "1"
+    - option "2"
+    - option "3"
+    - option "4"
+  - button "Refine your search":
+    - text: Refine your search
+  - generic: Departure Date
+  - button "10/10 (Sat) No seats" [disabled]:
+    - text: 10/10
+    - generic: (Sat)
+    - generic: No seats
+  - button "10/11 (Sun) No seats" [disabled]:
+    - text: 10/11
+    - generic: (Sun)
+    - generic: No seats
+  - button "10/12 (Mon) TWD4,390~":
+    - text: 10/12
+    - generic: (Mon)
+    - generic: TWD4,390~
+  - button "2026/10/13 (Tue) TWD3,690~":
+    - text: 2026/10/13
+    - generic: (Tue)
+    - generic: TWD3,690~
+  - button "10/14 (Wed) TWD2,690~":
+    - text: 10/14
+    - generic: (Wed)
+    - generic: TWD2,690~
+  - button "10/15 (Thu) TWD5,690~":
+    - text: 10/15
+    - generic: (Thu)
+    - generic: TWD5,690~
+  - button "10/16 (Fri) TWD3,790~":
+    - text: 10/16
+    - generic: (Fri)
+    - generic: TWD3,790~
+  - button "View lowest price in the calendar":
+    - generic: View lowest price in the calendar
+  - heading "Select your flight and fare type." [level=4]
+  - generic: Customize to your liking
+  - generic: Minimum
+  - button:
+  - generic: Peach's Standard Fare
+  - generic: Standard
+  - button:
+  - generic: For peace of mind for when plans change
+  - generic: Standard Plus
+  - button:
+  - generic: Flight
+  - generic: Aircraft
+  - generic: Dep
+  - generic: Arr
+  - generic: Flight time
+  - generic: Minimum
+  - generic: Standard
+  - generic: Standard Plus
+  - generic: MM922
+  - generic: A320neo
+  - generic: 09:35
+  - generic: 12:20
+  - text: 1h
+  - text: 45m
+  - generic: No seats
+  - button "TWD6,290 Ticketing fee +TWD0 6 seats left at this price" [disabled]:
+    - generic: TWD6,290
+    - generic: Ticketing fee +TWD0
+    - generic: 6 seats left at this price
+  - button "TWD7,330 Ticketing fee +TWD0 6 seats left at this price":
+    - generic: TWD7,330
+    - generic: Ticketing fee +TWD0
+    - generic: 6 seats left at this price
+  - generic: MM6924
+  - generic: A320neo
+  - generic: 15:00
+  - generic: 17:45
+  - text: 1h
+  - text: 45m
+  - generic: No seats
+  - button "TWD3,990 Ticketing fee +TWD0 9 seats left at this price":
+    - generic: TWD3,990
+    - generic: Ticketing fee +TWD0
+    - generic: 9 seats left at this price
+  - button "TWD5,030 Ticketing fee +TWD0 9 seats left at this price":
+    - generic: TWD5,030
+    - generic: Ticketing fee +TWD0
+    - generic: 9 seats left at this price
+  - generic: MM930
+  - generic: A320neo
+  - generic: 18:05
+  - generic: 20:50
+  - text: 1h
+  - text: 45m
+  - generic: No seats
+  - button "TWD3,690 Ticketing fee +TWD0 2 seats left at this price":
+    - generic: TWD3,690
+    - generic: Ticketing fee +TWD0
+    - generic: 2 seats left at this price
+  - button "TWD4,730 Ticketing fee +TWD0 2 seats left at this price":
+    - generic: TWD4,730
+    - generic: Ticketing fee +TWD0
+    - generic: 2 seats left at this price
+  

@@ -1,0 +1,316 @@
+/* Shared text rules follow layout styles so mobile labels stay readable too. */
+:root {
+  --muted: #536760;
+  --text-body: 15px;
+  --text-label: 14px;
+  --text-note: 13px;
+}
+
+body {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.search-intro p,
+.help-cards p,
+.destination-hint p,
+.empty-state p,
+.future-trip-panel p,
+.bottom-guide p,
+.flight-dialog p,
+.guide-body li,
+.trip-conditions,
+.journey-planner {
+  font-size: var(--text-body);
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.form-field label,
+.quick-dates button,
+.status-filter,
+.status-filter select,
+.primary-button,
+.detail-button,
+.load-more,
+.stage-buttons button,
+.dialog-links,
+.copy-conditions,
+.more-details summary,
+.official-airline-links a span,
+.future-trip-steps label,
+dt {
+  font-size: var(--text-label);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.form-field label,
+.status-filter,
+dt {
+  color: var(--muted);
+}
+
+input,
+select,
+.departure-choice select {
+  font-size: 16px;
+  font-weight: 500;
+}
+select:disabled {
+  opacity: 1;
+  color: var(--ink);
+}
+
+input::placeholder {
+  font-size: var(--text-label);
+  color: #617169;
+}
+
+.time-field {
+  width: 160px;
+  min-width: 160px;
+  flex-shrink: 0;
+}
+
+.search-help > span,
+.coverage-note,
+.results-heading p,
+.flight-identity > span,
+.flight-identity > small,
+.flight-route span:not(.route-trail span),
+.flight-state small,
+.source-section,
+.source-section summary,
+.source-overview > span,
+.source-short,
+.feed-ready,
+.feed-warning,
+.detail-explanation,
+.detail-summary small,
+.detail-summary > div > span:not(.status-badge),
+.unavailable-times strong,
+.unavailable-times p,
+.guide-heading span,
+.muted,
+.more-details,
+.journey-note,
+.journey-copy span,
+.card-arrival-note,
+.destination-hint .destination-source,
+.destination-hint a,
+.arrival-airports strong span,
+.airport-selection,
+.future-trip-panel .trip-note,
+.airline-group-heading > span,
+.collected-results-note,
+.collected-detail-note,
+.refresh-button,
+.site-footer,
+.site-footer > p,
+.site-footer > a {
+  font-size: var(--text-note);
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.search-intro h1,
+.help-cards h3,
+.bottom-guide h3,
+.destination-hint h3,
+.arrival-airports strong,
+.flight-identity h3,
+.destination strong,
+.guide-body h4,
+.future-trip-panel h4 {
+  font-weight: 700;
+}
+
+.help-cards h3,
+.bottom-guide h3,
+.destination-hint h3,
+.guide-body h4,
+.future-trip-panel h4 {
+  font-size: 18px;
+}
+
+.flight-identity h3,
+.destination strong,
+.arrival-airports strong {
+  font-size: 17px;
+}
+
+.departure-time strong,
+.detail-summary > div > strong,
+.journey-clock {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: 0;
+}
+
+.flight-card {
+  padding: 18px 20px;
+  gap: 16px;
+}
+.flight-identity h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  font-variant-numeric: tabular-nums;
+}
+.flight-identity > span {
+  font-size: 14px;
+  color: #334d47;
+  font-weight: 500;
+}
+.flight-identity > small {
+  display: block;
+  margin-top: 5px;
+  font-size: var(--text-note);
+}
+.departure-time strong {
+  font-size: 30px;
+  line-height: 1.2;
+}
+.destination > strong {
+  color: var(--ink);
+  font-size: 18px;
+}
+.card-arrival-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 7px;
+  margin-top: 7px;
+}
+.card-arrival-note .arrival-clock {
+  color: var(--ink);
+  font-size: 22px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+.flight-source-note {
+  font-size: var(--text-note);
+  line-height: 1.45;
+  gap: 4px 12px;
+  padding-top: 10px;
+}
+.arrival-airport-button strong {
+  font-size: 16px;
+}
+.arrival-airport-button p {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 5px;
+}
+.arrival-airports strong span {
+  font-weight: 500;
+}
+.arrival-airport-button {
+  padding: 14px 16px;
+}
+.status-filter select {
+  color: var(--ink);
+  font-weight: 500;
+}
+.journey-clock {
+  line-height: 1.15;
+}
+.brand,
+.search-intro h1,
+.destination-hint h3,
+.results-heading h2,
+.dialog-route {
+  letter-spacing: 0;
+}
+.airline-IT {
+  background: #fff3cb;
+  color: #6e5310;
+}
+.airline-7C {
+  background: #fff0e5;
+  color: #96531f;
+}
+.airline-VN {
+  background: #e5f1f5;
+  color: #226b80;
+}
+
+.status-badge {
+  font-size: var(--text-note);
+  font-weight: 500;
+  color: #405844;
+}
+
+.status-departed {
+  color: #46596e;
+}
+
+.status-boarding {
+  color: #276047;
+}
+
+.status-delayed,
+.status-changed {
+  color: #805016;
+}
+
+.status-cancelled,
+.error-message {
+  color: #8b352b;
+}
+
+.inline-warning,
+.feed-warning {
+  color: #805016;
+}
+
+.inline-warning,
+.error-message {
+  font-size: var(--text-label);
+}
+
+.search-help > span {
+  align-items: flex-start;
+}
+
+.search-help > span > svg {
+  margin-top: 4px;
+}
+
+.results-heading,
+.source-overview {
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.quick-dates {
+  flex-wrap: wrap;
+}
+
+.source-overview > span {
+  margin-left: 0;
+}
+
+@media (max-width: 760px) {
+  .search-intro p {
+    font-size: 13px;
+  }
+  .flight-card {
+    padding: 16px;
+  }
+  .flight-identity {
+    width: 120px;
+  }
+  .status-filter select {
+    font-size: 16px;
+  }
+
+  .flight-state {
+    width: auto;
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "ci-tpe-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "ci-tpe-returns.json": {
+    "from": "2000-01-01",
+    "through": "2099-12-31",
+    "records": []
+  },
+  "collected-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "eva-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "jeju-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "jetstar-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "jta-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-eva-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-expanded-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-expanded-returns.json": {
+    "version": 1,
+    "importedAt": "",
+    "from": "2000-01-01",
+    "through": "2099-12-31",
+    "partial": true,
+    "records": [],
+    "provenance": ""
+  },
+  "kaohsiung-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-jeju-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-jetstar-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-peach-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-thai-lion-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "kaohsiung-vietnam-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "peach-airport-guides.json": {
+    "version": 1,
+    "guides": []
+  },
+  "peach-booking-checks.json": {
+    "version": 1,
+    "records": []
+  },
+  "peach-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "peach-verification-progress.json": {
+    "version": 1,
+    "updatedAt": "",
+    "summary": {
+      "verified": 0,
+      "not_queried": 0,
+      "not_listed": 1,
+      "query_failed": 3,
+      "mismatch": 0
+    },
+    "records": []
+  },
+  "philippine-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "return-flights.json": {
+    "version": 0,
+    "from": "2000-01-01",
+    "through": "2099-12-31",
+    "dateBasis": "",
+    "partial": true,
+    "pendingCount": 1,
+    "provenance": "",
+    "records": [],
+    "additionalProvenance": "",
+    "gapReviewProvenance": ""
+  },
+  "starlux-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "thai-lion-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "tigerair-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  },
+  "vietnam-flights.json": {
+    "version": 1,
+    "importedAt": "",
+    "records": [],
+    "coverage": []
+  }
+}

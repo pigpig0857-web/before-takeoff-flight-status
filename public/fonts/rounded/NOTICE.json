@@ -1,0 +1,1294 @@
+{
+  "family": "Flight Query Rounded",
+  "derivedFrom": "GenSen Rounded 2.100 TW",
+  "upstream": "https://github.com/ButTaiwan/gensen-font",
+  "license": "GenSenRounded-OFL.txt",
+  "format": "woff2",
+  "weights": [
+    400,
+    500,
+    700
+  ],
+  "sources": [
+    {
+      "sha256": "092285878f1d9441c790e5d6a98e806bd508602ad0a8a55511b6fb0a71a25fed",
+      "url": "https://raw.githubusercontent.com/ButTaiwan/gensen-font/d347d3fffcb45e08857052433a0b432ed4f7ace8/otf/TW/GenSenRounded2TW-R.otf",
+      "weight": 400
+    },
+    {
+      "sha256": "b8286a42c534d31ca136c377ab3a3add7cf63058c67de8fec78e784ab26ec077",
+      "url": "https://raw.githubusercontent.com/ButTaiwan/gensen-font/d347d3fffcb45e08857052433a0b432ed4f7ace8/otf/TW/GenSenRounded2TW-M.otf",
+      "weight": 500
+    },
+    {
+      "sha256": "050f9ebf394faab3c0ba59092ae3e4b6686b349eadb3018d76d385c5829a1267",
+      "url": "https://raw.githubusercontent.com/ButTaiwan/gensen-font/d347d3fffcb45e08857052433a0b432ed4f7ace8/otf/TW/GenSenRounded2TW-B.otf",
+      "weight": 700
+    }
+  ],
+  "assets": [
+    {
+      "file": "rounded/400-core.woff2",
+      "weight": 400,
+      "glyphs": 1080,
+      "bytes": 205856,
+      "sha256": "4735109e6439fb674b386b8a2b0bd8e59047807cbe4391a3f42c032e5f8698eb"
+    },
+    {
+      "file": "rounded/400-u0000.woff2",
+      "weight": 400,
+      "glyphs": 272,
+      "bytes": 19208,
+      "sha256": "88bd93f4fb08982f1c6fcb84567828f374415beb8467c2f0cc0c196f62405110"
+    },
+    {
+      "file": "rounded/400-u1800.woff2",
+      "weight": 400,
+      "glyphs": 92,
+      "bytes": 6156,
+      "sha256": "9a3a1ef28b4c32afbb44561d9cd8591f55ec71dbc7e5e699b25aa2e46df73c8f"
+    },
+    {
+      "file": "rounded/400-u2000.woff2",
+      "weight": 400,
+      "glyphs": 649,
+      "bytes": 45592,
+      "sha256": "e6518425b4c8048e015e1351654207427d8f82525757d68442b8e93e4cec91af"
+    },
+    {
+      "file": "rounded/400-u2800.woff2",
+      "weight": 400,
+      "glyphs": 138,
+      "bytes": 18188,
+      "sha256": "42adcc71f7776b38e2589819da9ded1eb8821d2340dd84a87e6da00f104b5b68"
+    },
+    {
+      "file": "rounded/400-u3000.woff2",
+      "weight": 400,
+      "glyphs": 1873,
+      "bytes": 387760,
+      "sha256": "d1a36fbff4471c7fd7f3e6b14976726760631829d2808d851e3e74f8a35b4665"
+    },
+    {
+      "file": "rounded/400-u3800.woff2",
+      "weight": 400,
+      "glyphs": 2048,
+      "bytes": 524576,
+      "sha256": "b7d10a7ae2a3e47c8708e4f11d3a422a443f67088a543d2f4acf420d9b1b59b8"
+    },
+    {
+      "file": "rounded/400-u4000.woff2",
+      "weight": 400,
+      "glyphs": 2048,
+      "bytes": 526772,
+      "sha256": "c2df206310e676e7e14d1f42819e0b536dd27679d13f23712a9cf44481902b42"
+    },
+    {
+      "file": "rounded/400-u4800.woff2",
+      "weight": 400,
+      "glyphs": 1914,
+      "bytes": 496076,
+      "sha256": "33d9f7396db75d64577c6d0cdc0d9a0f6ab5bc97d3c4d385a8a3f8ab08263560"
+    },
+    {
+      "file": "rounded/400-u5000.woff2",
+      "weight": 400,
+      "glyphs": 1908,
+      "bytes": 393464,
+      "sha256": "4c7de18caa4047ed0d384d1ce3961d3ac129c0d3850e540f3878a14387694855"
+    },
+    {
+      "file": "rounded/400-u5800.woff2",
+      "weight": 400,
+      "glyphs": 1918,
+      "bytes": 431916,
+      "sha256": "eadcc8932c1c2e92b0e1f2ed70902b4c144a90d499ac36d4901a6aabca72c45b"
+    },
+    {
+      "file": "rounded/400-u6000.woff2",
+      "weight": 400,
+      "glyphs": 1930,
+      "bytes": 436052,
+      "sha256": "cfdd2029c99f3d407320ebf2d1767355f18ee5df0d5231b100eb0878426fa38a"
+    },
+    {
+      "file": "rounded/400-u6800.woff2",
+      "weight": 400,
+      "glyphs": 1966,
+      "bytes": 475348,
+      "sha256": "6b1abdb5578eb71c8b2d22c6b6a12ae6c158f403cdddc0255ee0a7f51c670c0b"
+    },
+    {
+      "file": "rounded/400-u7000.woff2",
+      "weight": 400,
+      "glyphs": 1991,
+      "bytes": 487988,
+      "sha256": "a63bdabe82781880bb19780aaf16cf6d9a89260acd5bce41b862a3ee0c02dd38"
+    },
+    {
+      "file": "rounded/400-u7800.woff2",
+      "weight": 400,
+      "glyphs": 1980,
+      "bytes": 500520,
+      "sha256": "e24c6f42788f8a6157192628b918abe27505b550ee27ad0ff218cdd75ea35456"
+    },
+    {
+      "file": "rounded/400-u8000.woff2",
+      "weight": 400,
+      "glyphs": 1984,
+      "bytes": 470464,
+      "sha256": "f865d3a80d534032cd481ad170e090c6fbd781c08ddb903b81621208eb55529e"
+    },
+    {
+      "file": "rounded/400-u8800.woff2",
+      "weight": 400,
+      "glyphs": 1979,
+      "bytes": 467600,
+      "sha256": "15c09771099592a1a40747055563c0c89366308c37855674a76c6bd8bb436fd5"
+    },
+    {
+      "file": "rounded/400-u9000.woff2",
+      "weight": 400,
+      "glyphs": 1979,
+      "bytes": 470004,
+      "sha256": "b7893c1a8c89562c3617c9e361188d84343f4f7455ebf5bfd207b6771d56fc2b"
+    },
+    {
+      "file": "rounded/400-u9800.woff2",
+      "weight": 400,
+      "glyphs": 1996,
+      "bytes": 573468,
+      "sha256": "3ab14a6a9256827b5e13f9c0bf791166f6ac776c27ce0ad8406466e87cdab026"
+    },
+    {
+      "file": "rounded/400-ua800.woff2",
+      "weight": 400,
+      "glyphs": 262,
+      "bytes": 24736,
+      "sha256": "e46fa1421919e3b18c82b42c82a72baa163ab18701c7d645ea24ae3d2ab279cf"
+    },
+    {
+      "file": "rounded/400-ub000.woff2",
+      "weight": 400,
+      "glyphs": 417,
+      "bytes": 32564,
+      "sha256": "bc7ed5742932fa316e76f9b56c8c35fe9da953d2a971040f742f3ffa96e89721"
+    },
+    {
+      "file": "rounded/400-ub800.woff2",
+      "weight": 400,
+      "glyphs": 410,
+      "bytes": 28788,
+      "sha256": "4b56c9c882c28e2728466ccd1d63ca2587586f921ce25e354f304dbbbb910d98"
+    },
+    {
+      "file": "rounded/400-uc000.woff2",
+      "weight": 400,
+      "glyphs": 504,
+      "bytes": 45940,
+      "sha256": "8eef0f1c839cd801cceb07987383bde0f8b9e90731e183b910e5db7d740d8b3a"
+    },
+    {
+      "file": "rounded/400-uc800.woff2",
+      "weight": 400,
+      "glyphs": 372,
+      "bytes": 34572,
+      "sha256": "3b97593728e1ab479cb0d5133a3999dd924e01a86e7c845cdc7bcf712fa50209"
+    },
+    {
+      "file": "rounded/400-ud000.woff2",
+      "weight": 400,
+      "glyphs": 385,
+      "bytes": 34756,
+      "sha256": "b257b37d8e26b37cc71cb0ae996217cb2ee356aa22750023834fe9597979141e"
+    },
+    {
+      "file": "rounded/400-uf800.woff2",
+      "weight": 400,
+      "glyphs": 599,
+      "bytes": 118584,
+      "sha256": "ff771858326fece38d300cfed5b213f368502010f990b65826626d45d504acba"
+    },
+    {
+      "file": "rounded/400-u1f000.woff2",
+      "weight": 400,
+      "glyphs": 225,
+      "bytes": 26932,
+      "sha256": "8a71565fd81a4a1402e05cb5ee969d9870a9e8612b3cac3fe0305262c1f6d3d1"
+    },
+    {
+      "file": "rounded/400-u20000.woff2",
+      "weight": 400,
+      "glyphs": 121,
+      "bytes": 30228,
+      "sha256": "67ee35226661e8bb051aaa74e5cf196cf1e8d3f6082f8f477b32a9c48eaf082a"
+    },
+    {
+      "file": "rounded/400-u20800.woff2",
+      "weight": 400,
+      "glyphs": 156,
+      "bytes": 36936,
+      "sha256": "74addbb0b26255bd7a8d286564faaa641e75b8ff95fc21312c821a32b31c6ad6"
+    },
+    {
+      "file": "rounded/400-u21000.woff2",
+      "weight": 400,
+      "glyphs": 155,
+      "bytes": 47372,
+      "sha256": "16bdddab6b07c53958dcaee9092a751680cca80be7a0bd5e565dff3b8e42385a"
+    },
+    {
+      "file": "rounded/400-u21800.woff2",
+      "weight": 400,
+      "glyphs": 113,
+      "bytes": 34836,
+      "sha256": "bd7ae1f203fcbf9aba71129e918358256b20c2131a54d43f6c804ea61ef476fc"
+    },
+    {
+      "file": "rounded/400-u22000.woff2",
+      "weight": 400,
+      "glyphs": 67,
+      "bytes": 20076,
+      "sha256": "c1cf17bae420bfbc06f73c92891e5cd370c11383375cb9eeb55e13103ff05dd7"
+    },
+    {
+      "file": "rounded/400-u22800.woff2",
+      "weight": 400,
+      "glyphs": 89,
+      "bytes": 30024,
+      "sha256": "db9c5843212189d9b5701f9e3146cc4aac78438c6616ed888f1eda85e619c95f"
+    },
+    {
+      "file": "rounded/400-u23000.woff2",
+      "weight": 400,
+      "glyphs": 139,
+      "bytes": 40352,
+      "sha256": "e74b765ad1dca9237ab0cfca1cc080d5ae96ab2ec558ff161b790b6d39d32da2"
+    },
+    {
+      "file": "rounded/400-u23800.woff2",
+      "weight": 400,
+      "glyphs": 95,
+      "bytes": 29628,
+      "sha256": "96b47e321a2092bfea1b49b46022622a2a8ca8f64b833065c641e95f3223804c"
+    },
+    {
+      "file": "rounded/400-u24000.woff2",
+      "weight": 400,
+      "glyphs": 119,
+      "bytes": 43652,
+      "sha256": "0e45d6e2d62379b3bcc067c3a141fd1932084aa3a9cd9257aad10506d12827fd"
+    },
+    {
+      "file": "rounded/400-u24800.woff2",
+      "weight": 400,
+      "glyphs": 168,
+      "bytes": 49172,
+      "sha256": "78e0242da8c62e76b4f6b7d07c5f21f19527d854bf3fcf40a0e56db4e15668a9"
+    },
+    {
+      "file": "rounded/400-u25000.woff2",
+      "weight": 400,
+      "glyphs": 85,
+      "bytes": 23660,
+      "sha256": "26dfb809183a6851bd290449225a2439ab948521439f580bfb0d3aa9d190fbfa"
+    },
+    {
+      "file": "rounded/400-u25800.woff2",
+      "weight": 400,
+      "glyphs": 84,
+      "bytes": 29860,
+      "sha256": "20353120cfe7326aa0b2dbabda5e507d80ddd118b1aad1b33dd55d11ab13e8a5"
+    },
+    {
+      "file": "rounded/400-u26000.woff2",
+      "weight": 400,
+      "glyphs": 80,
+      "bytes": 26140,
+      "sha256": "049e8864d7c6adf61f3ff404c202eaffcf4deaafd7bbe5321b6c183e9bd65926"
+    },
+    {
+      "file": "rounded/400-u26800.woff2",
+      "weight": 400,
+      "glyphs": 134,
+      "bytes": 39948,
+      "sha256": "20f24962fe0e31a6d9fa3effd5dc14f968bc69c7069fdbc479a967493e494e79"
+    },
+    {
+      "file": "rounded/400-u27000.woff2",
+      "weight": 400,
+      "glyphs": 80,
+      "bytes": 29644,
+      "sha256": "cfd12b15de51917ca004bab809c3d2b0bc70be8d1784ce138e8aefd76022bc62"
+    },
+    {
+      "file": "rounded/400-u27800.woff2",
+      "weight": 400,
+      "glyphs": 70,
+      "bytes": 23516,
+      "sha256": "4b114ac1c8108f9db4f9efea182043afa2c07e0651da80e0a72f70c5f1aaed72"
+    },
+    {
+      "file": "rounded/400-u28000.woff2",
+      "weight": 400,
+      "glyphs": 82,
+      "bytes": 25200,
+      "sha256": "26a3f3b5a0b6ce79fd8a41e5a29d242457e48a6a3546b4b0bc216f1826570b8f"
+    },
+    {
+      "file": "rounded/400-u28800.woff2",
+      "weight": 400,
+      "glyphs": 165,
+      "bytes": 57720,
+      "sha256": "fe6e10fd70b804ab3577f065784194f56ff8a1e843aa7a8d0cfb4382dd138c53"
+    },
+    {
+      "file": "rounded/400-u29000.woff2",
+      "weight": 400,
+      "glyphs": 58,
+      "bytes": 20336,
+      "sha256": "5e7ae8b0e52f5c0c799406d0881cd45a6e68ea0ac0145305f44aadc14f9c48ce"
+    },
+    {
+      "file": "rounded/400-u29800.woff2",
+      "weight": 400,
+      "glyphs": 64,
+      "bytes": 24792,
+      "sha256": "07ec49b4c68cb50ebc8ac7279ff25cd24ffd3fe9da33feb69049dbadd0ac0735"
+    },
+    {
+      "file": "rounded/400-u2a000.woff2",
+      "weight": 400,
+      "glyphs": 64,
+      "bytes": 27040,
+      "sha256": "ab08c22aebe466bf3b6c7735a61d9de051306f92cd94ebcaa82c2bc752ec993e"
+    },
+    {
+      "file": "rounded/400-u2a800.woff2",
+      "weight": 400,
+      "glyphs": 9,
+      "bytes": 4232,
+      "sha256": "38787bf795e48df6f2ff92f2473155fd374fce7f955bb80011e0bb80c0edc09d"
+    },
+    {
+      "file": "rounded/400-u2b000.woff2",
+      "weight": 400,
+      "glyphs": 74,
+      "bytes": 22660,
+      "sha256": "3a3a6fa84a45083a81e2b7347b2058eda949d631654555bae89f412b34d70d22"
+    },
+    {
+      "file": "rounded/400-u2b800.woff2",
+      "weight": 400,
+      "glyphs": 20,
+      "bytes": 7468,
+      "sha256": "55a825b7cc0666ad569b6ef19d564df2e4fb4e74c27147e41d02e0c8b754b9f7"
+    },
+    {
+      "file": "rounded/400-u2c000.woff2",
+      "weight": 400,
+      "glyphs": 38,
+      "bytes": 11936,
+      "sha256": "fab0c3c816c98868ba57339df0a971ba4de1a7675098afc04791f4a9d9d16217"
+    },
+    {
+      "file": "rounded/400-u2c800.woff2",
+      "weight": 400,
+      "glyphs": 65,
+      "bytes": 20164,
+      "sha256": "488f4e5c7874f8b51b6b8ce6c10735540bef53019ca8bc46fae449a0fa5a3a82"
+    },
+    {
+      "file": "rounded/400-u2d000.woff2",
+      "weight": 400,
+      "glyphs": 2,
+      "bytes": 1556,
+      "sha256": "3f103c1d0d275c27ce6f76674613c38cba07e0b68b1adc98b510a491abc9865b"
+    },
+    {
+      "file": "rounded/400-u2e000.woff2",
+      "weight": 400,
+      "glyphs": 4,
+      "bytes": 2368,
+      "sha256": "15a81ee16951fb3ecb255de167b44283d94909d187a3293ff00617626db4df0e"
+    },
+    {
+      "file": "rounded/400-u2f800.woff2",
+      "weight": 400,
+      "glyphs": 55,
+      "bytes": 16440,
+      "sha256": "e98c1d03c0818aded74fd58f2359c2aa5e51c3fbe486456322bc9cb4a3d338a9"
+    },
+    {
+      "file": "rounded/400-u30000.woff2",
+      "weight": 400,
+      "glyphs": 1,
+      "bytes": 1552,
+      "sha256": "59039b5dde2e6caf9444213c3c806607911caca4782caa3d79e5de1b95c99aae"
+    },
+    {
+      "file": "rounded/400-u30800.woff2",
+      "weight": 400,
+      "glyphs": 4,
+      "bytes": 4588,
+      "sha256": "9d95057e6494b46696dfbf2c686ff0d89cbcf31dfb9b422fd9ab731ad32b11e6"
+    },
+    {
+      "file": "rounded/400-u31000.woff2",
+      "weight": 400,
+      "glyphs": 2,
+      "bytes": 2608,
+      "sha256": "dad95711e707b3108ba82eae469804253d83fa0bd922de96ce098c23ec5e111d"
+    },
+    {
+      "file": "rounded/400-u31800.woff2",
+      "weight": 400,
+      "glyphs": 1,
+      "bytes": 1360,
+      "sha256": "7133d8e958470d0c78af3407872d84ff62646e0566e68c6ae7b5dd198bcd489e"
+    },
+    {
+      "file": "rounded/500-core.woff2",
+      "weight": 500,
+      "glyphs": 1080,
+      "bytes": 208064,
+      "sha256": "d69df0f1be6180db45dda17728781be20dcd8d97e95622b6b1b26ea180ce2e9e"
+    },
+    {
+      "file": "rounded/500-u0000.woff2",
+      "weight": 500,
+      "glyphs": 272,
+      "bytes": 19268,
+      "sha256": "596fe0147cc35a3455d3516eaec9299f972d5cf65ec83de151c3b828f799d4ab"
+    },
+    {
+      "file": "rounded/500-u1800.woff2",
+      "weight": 500,
+      "glyphs": 92,
+      "bytes": 6336,
+      "sha256": "f4e070fa6b9c38e5dedeeef497514c05159a30e9658c4f90646b53e6cb215d9e"
+    },
+    {
+      "file": "rounded/500-u2000.woff2",
+      "weight": 500,
+      "glyphs": 649,
+      "bytes": 46020,
+      "sha256": "7405e08e3cea9a4a14e40f1b930fd3c897452b0b29bb79cf1fe60c675a43d49d"
+    },
+    {
+      "file": "rounded/500-u2800.woff2",
+      "weight": 500,
+      "glyphs": 138,
+      "bytes": 18516,
+      "sha256": "57857d629d424de09b21cd9ab50ac5154f948903f53af814e598ed1252a4c1d8"
+    },
+    {
+      "file": "rounded/500-u3000.woff2",
+      "weight": 500,
+      "glyphs": 1873,
+      "bytes": 394120,
+      "sha256": "7c69806372c7c8a4170287b21b61cd39f698d83119941912db5785b0f3cb0877"
+    },
+    {
+      "file": "rounded/500-u3800.woff2",
+      "weight": 500,
+      "glyphs": 2048,
+      "bytes": 535976,
+      "sha256": "5cf0c8b06ff45efb83adbf63f773c6cd1942f3dadfc0d0a679a9a70876b2ca73"
+    },
+    {
+      "file": "rounded/500-u4000.woff2",
+      "weight": 500,
+      "glyphs": 2048,
+      "bytes": 538368,
+      "sha256": "589773b6c87842c2b3f1adac213e97f36a3895e29cecb23966cf7cc8ea5bd3bb"
+    },
+    {
+      "file": "rounded/500-u4800.woff2",
+      "weight": 500,
+      "glyphs": 1914,
+      "bytes": 506416,
+      "sha256": "a9da1b67ef36f7cc5e62479dc10ea3cbc1d49cc66e293c0b38909880c0f1a0f2"
+    },
+    {
+      "file": "rounded/500-u5000.woff2",
+      "weight": 500,
+      "glyphs": 1908,
+      "bytes": 398284,
+      "sha256": "2d2fb9b6c4a595bd348ac945b8d9aa321e0d61333606bbf06d1ea848085805e7"
+    },
+    {
+      "file": "rounded/500-u5800.woff2",
+      "weight": 500,
+      "glyphs": 1918,
+      "bytes": 440664,
+      "sha256": "b61269aba613198e2cf4a7b3170016e6e61daa9ae13ab2b526c720f86a04ec66"
+    },
+    {
+      "file": "rounded/500-u6000.woff2",
+      "weight": 500,
+      "glyphs": 1930,
+      "bytes": 445396,
+      "sha256": "89de34844317a1d0b27f40d7d7c9bb96b93e82225a0281176644d4fafb0be022"
+    },
+    {
+      "file": "rounded/500-u6800.woff2",
+      "weight": 500,
+      "glyphs": 1966,
+      "bytes": 484904,
+      "sha256": "49f45df3352eb9e182a207f6a5edd34db04c8bd4e9086925499912aa9f1e7b42"
+    },
+    {
+      "file": "rounded/500-u7000.woff2",
+      "weight": 500,
+      "glyphs": 1991,
+      "bytes": 498540,
+      "sha256": "cb57a0c5e94f8384e71f4e5a84e1dd146b9b530e2f55b6fbb188a3ea591d8473"
+    },
+    {
+      "file": "rounded/500-u7800.woff2",
+      "weight": 500,
+      "glyphs": 1980,
+      "bytes": 512984,
+      "sha256": "b94cf0276adf6a7f6b884485f42aad67613ba69687ca4e6456a26389f701a180"
+    },
+    {
+      "file": "rounded/500-u8000.woff2",
+      "weight": 500,
+      "glyphs": 1984,
+      "bytes": 480592,
+      "sha256": "9d9ccc7e2d4a35b7b6f53e56c81dac84f9179c1e317640b6d2b50a6864fc0aca"
+    },
+    {
+      "file": "rounded/500-u8800.woff2",
+      "weight": 500,
+      "glyphs": 1979,
+      "bytes": 477212,
+      "sha256": "2bdc0e3d0e0f0f3bbe4ed726316707942a0fc8a93faf3cb2c0bf6737b93c8490"
+    },
+    {
+      "file": "rounded/500-u9000.woff2",
+      "weight": 500,
+      "glyphs": 1979,
+      "bytes": 484124,
+      "sha256": "feeae4e3de4d03083592cec027ed5c257a5088840af30e25b519047e5eed7aaf"
+    },
+    {
+      "file": "rounded/500-u9800.woff2",
+      "weight": 500,
+      "glyphs": 1996,
+      "bytes": 587668,
+      "sha256": "39e2738b42fdc297f742b68becb79242ef1c41848094bdf86b55553cdb9c4525"
+    },
+    {
+      "file": "rounded/500-ua800.woff2",
+      "weight": 500,
+      "glyphs": 262,
+      "bytes": 25104,
+      "sha256": "142e2f60ebb77d762da523a2ddcc90dd3bbd589d0454e11b6fe5eae9c11ec8fb"
+    },
+    {
+      "file": "rounded/500-ub000.woff2",
+      "weight": 500,
+      "glyphs": 417,
+      "bytes": 33256,
+      "sha256": "b0880e053c49a6b42f8f9a391e635312f13eeb3aca16abd5ddb3e334b7cb744c"
+    },
+    {
+      "file": "rounded/500-ub800.woff2",
+      "weight": 500,
+      "glyphs": 410,
+      "bytes": 29672,
+      "sha256": "4aa72101749fc6c3d4165f12207af3058d3dd53468bb4d59baa76cb6513b2863"
+    },
+    {
+      "file": "rounded/500-uc000.woff2",
+      "weight": 500,
+      "glyphs": 504,
+      "bytes": 46540,
+      "sha256": "fe9d24633251104ccda2e3d96869c17b35d2bdc97844c68cbc78cd88a35ab0d9"
+    },
+    {
+      "file": "rounded/500-uc800.woff2",
+      "weight": 500,
+      "glyphs": 372,
+      "bytes": 35264,
+      "sha256": "2b322219f1f357b89ab8520dabfbdb53d4152a86226d516c7aac2d8cc2c08621"
+    },
+    {
+      "file": "rounded/500-ud000.woff2",
+      "weight": 500,
+      "glyphs": 385,
+      "bytes": 35648,
+      "sha256": "660e1a2130f1f793c1084ecbd1c3458d875f10fcc33a467ab6b6a56717938514"
+    },
+    {
+      "file": "rounded/500-uf800.woff2",
+      "weight": 500,
+      "glyphs": 599,
+      "bytes": 120016,
+      "sha256": "56fdf9d3d32cbac8854141f940c464de4f24183fc3a4f4badef0c9913f3e0086"
+    },
+    {
+      "file": "rounded/500-u1f000.woff2",
+      "weight": 500,
+      "glyphs": 225,
+      "bytes": 27212,
+      "sha256": "3a2deb48db602fb5876c2a016627303d6f905af4ec02738215c330d18e8b70af"
+    },
+    {
+      "file": "rounded/500-u20000.woff2",
+      "weight": 500,
+      "glyphs": 121,
+      "bytes": 30812,
+      "sha256": "dd87c8d55c7830e697a1c0ccdbaeda68d40998eb69807fcf12ba712973a2b737"
+    },
+    {
+      "file": "rounded/500-u20800.woff2",
+      "weight": 500,
+      "glyphs": 156,
+      "bytes": 37140,
+      "sha256": "b93405afb76a3e57cfaf53c892fd24ed0428e1696fa0bc4d5532e72cc2a5744f"
+    },
+    {
+      "file": "rounded/500-u21000.woff2",
+      "weight": 500,
+      "glyphs": 155,
+      "bytes": 48336,
+      "sha256": "7e06e370f2a3b29e516ca60c89678f3717e0491d226b3c228bfb9fa00ac9eda7"
+    },
+    {
+      "file": "rounded/500-u21800.woff2",
+      "weight": 500,
+      "glyphs": 113,
+      "bytes": 35496,
+      "sha256": "05d7282f0eb3ec9c46c8f4a2fb879ba39887c0a5cd277dc0a1cd9021e1c1523b"
+    },
+    {
+      "file": "rounded/500-u22000.woff2",
+      "weight": 500,
+      "glyphs": 67,
+      "bytes": 20208,
+      "sha256": "dbe809d481d6b9a32a6b5f7cc7d0836a7273438220c8ab624436bbac498d9751"
+    },
+    {
+      "file": "rounded/500-u22800.woff2",
+      "weight": 500,
+      "glyphs": 89,
+      "bytes": 30052,
+      "sha256": "f48fcbef7ceb04b31d3c2a13d3fd477fe098164160293bdaecce68b1cdc2d274"
+    },
+    {
+      "file": "rounded/500-u23000.woff2",
+      "weight": 500,
+      "glyphs": 139,
+      "bytes": 40888,
+      "sha256": "b4ee5abbae0d45ff76448dec4fb5a8b322475149b4f997676f810eb67f979fb5"
+    },
+    {
+      "file": "rounded/500-u23800.woff2",
+      "weight": 500,
+      "glyphs": 95,
+      "bytes": 30460,
+      "sha256": "0b0640fa4140fd9e5ddc5f99c2ec395a092bc06a6c7a8e9bdec457d64b7fa845"
+    },
+    {
+      "file": "rounded/500-u24000.woff2",
+      "weight": 500,
+      "glyphs": 119,
+      "bytes": 44672,
+      "sha256": "5f1642b64b618c0ba5b2afd1bd542af4e4efa7756916cb0857f4c741f4224569"
+    },
+    {
+      "file": "rounded/500-u24800.woff2",
+      "weight": 500,
+      "glyphs": 168,
+      "bytes": 49948,
+      "sha256": "9830a71643bfffbe194739fe513f879b6428c238055f207b881f64499c9ce626"
+    },
+    {
+      "file": "rounded/500-u25000.woff2",
+      "weight": 500,
+      "glyphs": 85,
+      "bytes": 24208,
+      "sha256": "f62b9bb4c87cd98d1d08e9a24f8da54396432a10ec16dca10dd768d0d31ff3bb"
+    },
+    {
+      "file": "rounded/500-u25800.woff2",
+      "weight": 500,
+      "glyphs": 84,
+      "bytes": 30040,
+      "sha256": "d101e89c05b7184e77f36b48996a898f8617966682de0a1b0430f8442f22085c"
+    },
+    {
+      "file": "rounded/500-u26000.woff2",
+      "weight": 500,
+      "glyphs": 80,
+      "bytes": 26800,
+      "sha256": "dff4751dd529f1ec96a709f578c8cebde9b9bdbaec3352e5c9e32dcd9b82391e"
+    },
+    {
+      "file": "rounded/500-u26800.woff2",
+      "weight": 500,
+      "glyphs": 134,
+      "bytes": 41100,
+      "sha256": "dedd01a1aec354cd9d19a92a364ede7d90f8876a90473899381d1d4690765f0a"
+    },
+    {
+      "file": "rounded/500-u27000.woff2",
+      "weight": 500,
+      "glyphs": 80,
+      "bytes": 30180,
+      "sha256": "4ffa0bff94132310e3a59cc2c9cb2205225073909d408103e746c4db956e6b6c"
+    },
+    {
+      "file": "rounded/500-u27800.woff2",
+      "weight": 500,
+      "glyphs": 70,
+      "bytes": 23808,
+      "sha256": "5cd186fed0784d87930dc9208d5284db0337300acb3ef6f54868dd2ed77689ce"
+    },
+    {
+      "file": "rounded/500-u28000.woff2",
+      "weight": 500,
+      "glyphs": 82,
+      "bytes": 25616,
+      "sha256": "67882526f8d3016a1a4576f41816b04a1e13f0ed9f6333a0149115ede5f15d61"
+    },
+    {
+      "file": "rounded/500-u28800.woff2",
+      "weight": 500,
+      "glyphs": 165,
+      "bytes": 59504,
+      "sha256": "4a01dd131a3dd14e7eeec448a41f6d6418ccfe8f811be706e9dd9d44206cebd5"
+    },
+    {
+      "file": "rounded/500-u29000.woff2",
+      "weight": 500,
+      "glyphs": 58,
+      "bytes": 20864,
+      "sha256": "0295d178af96643bcdcb44cd1db0bbe5b3be8765ba758dfc08f2b627d2316e1b"
+    },
+    {
+      "file": "rounded/500-u29800.woff2",
+      "weight": 500,
+      "glyphs": 64,
+      "bytes": 25332,
+      "sha256": "dbad751d05c2dccb088bae553d4b9d08766b41aa0b5bb203c242755b916d9942"
+    },
+    {
+      "file": "rounded/500-u2a000.woff2",
+      "weight": 500,
+      "glyphs": 64,
+      "bytes": 27856,
+      "sha256": "25d33a0f7d890e806bcebb657572a6a173481cffe921c0a36d8a07f586bbfaff"
+    },
+    {
+      "file": "rounded/500-u2a800.woff2",
+      "weight": 500,
+      "glyphs": 9,
+      "bytes": 4268,
+      "sha256": "983f5ab8574cfe6e23e718905f42dbbd4bf09660fbb5c210aa1ba09036e7cacc"
+    },
+    {
+      "file": "rounded/500-u2b000.woff2",
+      "weight": 500,
+      "glyphs": 74,
+      "bytes": 23016,
+      "sha256": "0257997bedcd5889a295faaed03c1877a9d8375728be56747657475d0f7c0a2d"
+    },
+    {
+      "file": "rounded/500-u2b800.woff2",
+      "weight": 500,
+      "glyphs": 20,
+      "bytes": 7576,
+      "sha256": "f75d7967d8fe56214811374f78e50389be556f220065b6259b30940df5f20785"
+    },
+    {
+      "file": "rounded/500-u2c000.woff2",
+      "weight": 500,
+      "glyphs": 38,
+      "bytes": 12160,
+      "sha256": "9fb55205d6c0deaccc7186cdcfce5607b9748d1b9079bbc17d1e65aff416656a"
+    },
+    {
+      "file": "rounded/500-u2c800.woff2",
+      "weight": 500,
+      "glyphs": 65,
+      "bytes": 20680,
+      "sha256": "54ea8791cbf616cec0de8e72888d5044339f432a60276f889157705e1a3c91bc"
+    },
+    {
+      "file": "rounded/500-u2d000.woff2",
+      "weight": 500,
+      "glyphs": 2,
+      "bytes": 1568,
+      "sha256": "b0f634e2e8138b13d55db329d183409e0211ec18afc6db1903bacccd15406081"
+    },
+    {
+      "file": "rounded/500-u2e000.woff2",
+      "weight": 500,
+      "glyphs": 4,
+      "bytes": 2448,
+      "sha256": "a1cc80acf5c6590f010b97e39e835f6a4217fd197f6726807a0bb2d02a1f0ba5"
+    },
+    {
+      "file": "rounded/500-u2f800.woff2",
+      "weight": 500,
+      "glyphs": 55,
+      "bytes": 16640,
+      "sha256": "3526a8da5907212c74ca281f6833d194df590cc0d268d679a5b0559d9fb415d7"
+    },
+    {
+      "file": "rounded/500-u30000.woff2",
+      "weight": 500,
+      "glyphs": 1,
+      "bytes": 1592,
+      "sha256": "e7bb10e5bb70f8a074cae6cef4bf2b591636e90eb245fc140374f2093580434a"
+    },
+    {
+      "file": "rounded/500-u30800.woff2",
+      "weight": 500,
+      "glyphs": 4,
+      "bytes": 4708,
+      "sha256": "04551eac8bdfcce1c836501afdb35ac00728e4f500a11972978a45d4cf8e55f5"
+    },
+    {
+      "file": "rounded/500-u31000.woff2",
+      "weight": 500,
+      "glyphs": 2,
+      "bytes": 2652,
+      "sha256": "a3e1a6ce0980e221d01a535617504e97699e2dc5f7da210ef69f756ceb404351"
+    },
+    {
+      "file": "rounded/500-u31800.woff2",
+      "weight": 500,
+      "glyphs": 1,
+      "bytes": 1344,
+      "sha256": "663b16e74697133fbb75efa9f4d27287943523de14665dce53075185ea0ae708"
+    },
+    {
+      "file": "rounded/700-core.woff2",
+      "weight": 700,
+      "glyphs": 1080,
+      "bytes": 211456,
+      "sha256": "e852636702ada287531a961b492305beb059d3bfe6c3b5bdc7d8c49191dab008"
+    },
+    {
+      "file": "rounded/700-u0000.woff2",
+      "weight": 700,
+      "glyphs": 272,
+      "bytes": 19660,
+      "sha256": "0c95e6f8872bad67d40862d3d75d5f90a682a210e27f779fd57a3ded9f586a94"
+    },
+    {
+      "file": "rounded/700-u1800.woff2",
+      "weight": 700,
+      "glyphs": 92,
+      "bytes": 6464,
+      "sha256": "ad6c3862205949a4eb111b9ca456be8ff75a69b06551ec0b76f01fe7161388f3"
+    },
+    {
+      "file": "rounded/700-u2000.woff2",
+      "weight": 700,
+      "glyphs": 649,
+      "bytes": 46088,
+      "sha256": "c57748342b28f57b109c6c70e7575e3a9bb2f58e3cbe62524fee8fcded5aad68"
+    },
+    {
+      "file": "rounded/700-u2800.woff2",
+      "weight": 700,
+      "glyphs": 138,
+      "bytes": 18668,
+      "sha256": "351f78fd8038b55457e6058a7467d1721fdb426d04ad3f59df1b4522699b8c6e"
+    },
+    {
+      "file": "rounded/700-u3000.woff2",
+      "weight": 700,
+      "glyphs": 1873,
+      "bytes": 400192,
+      "sha256": "8c45ab4c232956204f6f1352c688648e36917693e799d9a66c74fe694e337197"
+    },
+    {
+      "file": "rounded/700-u3800.woff2",
+      "weight": 700,
+      "glyphs": 2048,
+      "bytes": 548036,
+      "sha256": "0a8e2f4edd91094704ca4f7a5411fceed7c3add31798bd1d15a1274eb3a5878b"
+    },
+    {
+      "file": "rounded/700-u4000.woff2",
+      "weight": 700,
+      "glyphs": 2048,
+      "bytes": 550716,
+      "sha256": "e5930a2b2d08d28bd360117c8011d2386cec004a8c7fe1a4ed5bd87e15f86862"
+    },
+    {
+      "file": "rounded/700-u4800.woff2",
+      "weight": 700,
+      "glyphs": 1914,
+      "bytes": 517356,
+      "sha256": "25d687e0dc7be69c7c16398331df911f4e286888a53fd98aed065413ed740942"
+    },
+    {
+      "file": "rounded/700-u5000.woff2",
+      "weight": 700,
+      "glyphs": 1908,
+      "bytes": 406120,
+      "sha256": "efbb0e5005916ca08572a8e715a712fb7cbb3302d13beccec22c0c51371125ab"
+    },
+    {
+      "file": "rounded/700-u5800.woff2",
+      "weight": 700,
+      "glyphs": 1918,
+      "bytes": 447016,
+      "sha256": "ae41a56cc4b255ea94df52f7180ab98341d285d584e371a47dce149f7c88b7d3"
+    },
+    {
+      "file": "rounded/700-u6000.woff2",
+      "weight": 700,
+      "glyphs": 1930,
+      "bytes": 452832,
+      "sha256": "786e75c9d019bc1d59dc64c8500a5bfe20b5b1ff2e20ebca9ca22d03074cce0a"
+    },
+    {
+      "file": "rounded/700-u6800.woff2",
+      "weight": 700,
+      "glyphs": 1966,
+      "bytes": 496276,
+      "sha256": "46e6ade14515c9b2bfdf5939ab9e7fcd558181a4a896c1e678fd21792528ed7a"
+    },
+    {
+      "file": "rounded/700-u7000.woff2",
+      "weight": 700,
+      "glyphs": 1991,
+      "bytes": 508340,
+      "sha256": "8d82fe73483181814353e8fbd7912e89a1ebeaa0db835a391386a15177d0b7ea"
+    },
+    {
+      "file": "rounded/700-u7800.woff2",
+      "weight": 700,
+      "glyphs": 1980,
+      "bytes": 529204,
+      "sha256": "1393fb46e5720e301af5c20ff3ef6e4cf5d2bb9dff1f0eb1ab2f2a08cc44cdaa"
+    },
+    {
+      "file": "rounded/700-u8000.woff2",
+      "weight": 700,
+      "glyphs": 1984,
+      "bytes": 490096,
+      "sha256": "34758bc3f6af3bfd529ad800cf33d38c4bcc2cf45bb914a04a3cdd25c5a75fcf"
+    },
+    {
+      "file": "rounded/700-u8800.woff2",
+      "weight": 700,
+      "glyphs": 1979,
+      "bytes": 485612,
+      "sha256": "361cc4d3762697389f66b4ba1ab733562691aaa5853f47de69c00b97f499d0ca"
+    },
+    {
+      "file": "rounded/700-u9000.woff2",
+      "weight": 700,
+      "glyphs": 1979,
+      "bytes": 498960,
+      "sha256": "c7404f4052ba474fa75e25b49d80ee524c2cd53adbe785a8405ba2f571d60d62"
+    },
+    {
+      "file": "rounded/700-u9800.woff2",
+      "weight": 700,
+      "glyphs": 1996,
+      "bytes": 600400,
+      "sha256": "a559f447312f49d1ee5521faa7f3e7b16f5e7f9b339b6803ab0b1f09be1f19bb"
+    },
+    {
+      "file": "rounded/700-ua800.woff2",
+      "weight": 700,
+      "glyphs": 262,
+      "bytes": 26164,
+      "sha256": "b8c17d2fce07b1f8680d18a284f3edfa3e032aa7bedb5d113d2094ffe0e288fb"
+    },
+    {
+      "file": "rounded/700-ub000.woff2",
+      "weight": 700,
+      "glyphs": 417,
+      "bytes": 34316,
+      "sha256": "2efe4ce2a0e228eb0346e1c5fd4813bef0ccab5c74c5f65a135ac32bb5c59df0"
+    },
+    {
+      "file": "rounded/700-ub800.woff2",
+      "weight": 700,
+      "glyphs": 410,
+      "bytes": 30420,
+      "sha256": "4f748c97a10bb3d42bc31bf7915acd61f209b6d2ef0627fd6043e6383f0a3f31"
+    },
+    {
+      "file": "rounded/700-uc000.woff2",
+      "weight": 700,
+      "glyphs": 504,
+      "bytes": 48496,
+      "sha256": "c90f377eb3ef1280645ad39c8e46ff000e74f5feeeff296711b0d6d247640488"
+    },
+    {
+      "file": "rounded/700-uc800.woff2",
+      "weight": 700,
+      "glyphs": 372,
+      "bytes": 37380,
+      "sha256": "a41dd70933d1fc6f3ccb9c56c006f44622b678ecf430cb0c00a9f2a09c5fab04"
+    },
+    {
+      "file": "rounded/700-ud000.woff2",
+      "weight": 700,
+      "glyphs": 385,
+      "bytes": 36696,
+      "sha256": "5f27324e521208b64bc737eca103d28488f27e72c5121c0bdf6747482f6b7a50"
+    },
+    {
+      "file": "rounded/700-uf800.woff2",
+      "weight": 700,
+      "glyphs": 599,
+      "bytes": 122100,
+      "sha256": "d2adf08ba5014258876de3383c0d98188dfd4ef4b349e32f23d2abb03556b338"
+    },
+    {
+      "file": "rounded/700-u1f000.woff2",
+      "weight": 700,
+      "glyphs": 225,
+      "bytes": 27256,
+      "sha256": "4431d483ac02456fcdc26c71850f5b2282f4f07f81c66323cd8b4d143792c2de"
+    },
+    {
+      "file": "rounded/700-u20000.woff2",
+      "weight": 700,
+      "glyphs": 121,
+      "bytes": 31240,
+      "sha256": "3c6a0207c4c1f3ebf2b017cfe2058e6801c9d9abc1acd7603c3bdb789f59aefd"
+    },
+    {
+      "file": "rounded/700-u20800.woff2",
+      "weight": 700,
+      "glyphs": 156,
+      "bytes": 37728,
+      "sha256": "2912bc345f10922ff6417c8261e60962d6a2e0c8c3b6817456e26c0165f1ed7b"
+    },
+    {
+      "file": "rounded/700-u21000.woff2",
+      "weight": 700,
+      "glyphs": 155,
+      "bytes": 48972,
+      "sha256": "ec2efe98e05a8ff0d5c040fec16f4541efde3238a2a1ef23ac0a099c625dcfa9"
+    },
+    {
+      "file": "rounded/700-u21800.woff2",
+      "weight": 700,
+      "glyphs": 113,
+      "bytes": 36304,
+      "sha256": "a9b1d05945401e31b96fe362cd72cb5dd83aab219cb30b8af0bcf0739887d986"
+    },
+    {
+      "file": "rounded/700-u22000.woff2",
+      "weight": 700,
+      "glyphs": 67,
+      "bytes": 20928,
+      "sha256": "0342cc6b8a931a0334bb77fdf83140be92447eeed6041659cf9410171af02d58"
+    },
+    {
+      "file": "rounded/700-u22800.woff2",
+      "weight": 700,
+      "glyphs": 89,
+      "bytes": 30736,
+      "sha256": "acb11f0c54d4bde91a4a75f631caa23092a67e8d1f5d8627dc8da3fc0297c119"
+    },
+    {
+      "file": "rounded/700-u23000.woff2",
+      "weight": 700,
+      "glyphs": 139,
+      "bytes": 41824,
+      "sha256": "51b051b8d69f99e04067e61e9554cd9f504ff3af2e4ec1990b149e55641545ae"
+    },
+    {
+      "file": "rounded/700-u23800.woff2",
+      "weight": 700,
+      "glyphs": 95,
+      "bytes": 31024,
+      "sha256": "e2a2307cf2da59d468951d97ebd64fbd1fce6e88a9fbbba02ff15e5b9ddf4974"
+    },
+    {
+      "file": "rounded/700-u24000.woff2",
+      "weight": 700,
+      "glyphs": 119,
+      "bytes": 45908,
+      "sha256": "0861eb8fecf4addc4567c64ddf8d23fa13a135383bfae2d30389fc73214d3a79"
+    },
+    {
+      "file": "rounded/700-u24800.woff2",
+      "weight": 700,
+      "glyphs": 168,
+      "bytes": 50532,
+      "sha256": "3ef9bed105a8ca46969334f723a2356ab38d7ac07424ef3cb9c7e02f7fcc4114"
+    },
+    {
+      "file": "rounded/700-u25000.woff2",
+      "weight": 700,
+      "glyphs": 85,
+      "bytes": 24536,
+      "sha256": "424ea5f52ec92674ddead7e6d575add64002435a699d3c27664283329f39d9ad"
+    },
+    {
+      "file": "rounded/700-u25800.woff2",
+      "weight": 700,
+      "glyphs": 84,
+      "bytes": 30792,
+      "sha256": "aee29d43c87d17c2cf5ec25e90da7826f872e0a07e73575f81eebd6bca9bb5ef"
+    },
+    {
+      "file": "rounded/700-u26000.woff2",
+      "weight": 700,
+      "glyphs": 80,
+      "bytes": 27264,
+      "sha256": "eeead936b0bec4c5f4e894dda6d93af66b54b458ddd7d76164ec7151fe3a9f9d"
+    },
+    {
+      "file": "rounded/700-u26800.woff2",
+      "weight": 700,
+      "glyphs": 134,
+      "bytes": 41792,
+      "sha256": "c3eba03d3578102df0c711304778cf18166f441e73c81bc83ab44cc3ca274234"
+    },
+    {
+      "file": "rounded/700-u27000.woff2",
+      "weight": 700,
+      "glyphs": 80,
+      "bytes": 31080,
+      "sha256": "65c02d4878e9741197c5c3cd3164b2eb516daf3cc5c8f9ac090514581652fadd"
+    },
+    {
+      "file": "rounded/700-u27800.woff2",
+      "weight": 700,
+      "glyphs": 70,
+      "bytes": 24152,
+      "sha256": "cda6ef351e9c352c234aeb2c50f2ca76012f198096c42064483e002466157a0a"
+    },
+    {
+      "file": "rounded/700-u28000.woff2",
+      "weight": 700,
+      "glyphs": 82,
+      "bytes": 25740,
+      "sha256": "01c7937ea6744370386d9e0423f146cb10a285643a833b095a520b334c5b60b8"
+    },
+    {
+      "file": "rounded/700-u28800.woff2",
+      "weight": 700,
+      "glyphs": 165,
+      "bytes": 61720,
+      "sha256": "679c88d2d286038cdc32699926911b9746c59ed62159a0b775b668d670ad309f"
+    },
+    {
+      "file": "rounded/700-u29000.woff2",
+      "weight": 700,
+      "glyphs": 58,
+      "bytes": 21064,
+      "sha256": "bec7e797ffc21fe2a2bb70c9a7ec81e31f3b8fac488ff61d007ea6d247f75cf1"
+    },
+    {
+      "file": "rounded/700-u29800.woff2",
+      "weight": 700,
+      "glyphs": 64,
+      "bytes": 25936,
+      "sha256": "dedb14c12345a2dc4a4f933771de9df59a4d8fb72ccc277dd91944e0de478f67"
+    },
+    {
+      "file": "rounded/700-u2a000.woff2",
+      "weight": 700,
+      "glyphs": 64,
+      "bytes": 28116,
+      "sha256": "6c48bae4e7443579421b9596c9c4c032b14a3cfab146b04c3fd8ae0f9450f199"
+    },
+    {
+      "file": "rounded/700-u2a800.woff2",
+      "weight": 700,
+      "glyphs": 9,
+      "bytes": 4312,
+      "sha256": "d1b1ad079322fbd9da82272a57c9c23fda0abfceb0abb7a42ec0ef0a9924f5d5"
+    },
+    {
+      "file": "rounded/700-u2b000.woff2",
+      "weight": 700,
+      "glyphs": 74,
+      "bytes": 23332,
+      "sha256": "0b011c73a3e9e7519393b3ba6859eb2ddd14e854e12252cf6cb43944c161ac31"
+    },
+    {
+      "file": "rounded/700-u2b800.woff2",
+      "weight": 700,
+      "glyphs": 20,
+      "bytes": 7624,
+      "sha256": "397d3ec1c080cd8169d3f940573e04186d76714bbfd6ee2500fd42ff7a4fd7da"
+    },
+    {
+      "file": "rounded/700-u2c000.woff2",
+      "weight": 700,
+      "glyphs": 38,
+      "bytes": 12248,
+      "sha256": "0aaa87eed20d1290c2fd9636a5547847e05565975c27b2f68ac295fa3860f093"
+    },
+    {
+      "file": "rounded/700-u2c800.woff2",
+      "weight": 700,
+      "glyphs": 65,
+      "bytes": 20780,
+      "sha256": "7097d20c45937a52f0a736b4002a08fd5e3828d2ae61df44536ba4c327bdd6df"
+    },
+    {
+      "file": "rounded/700-u2d000.woff2",
+      "weight": 700,
+      "glyphs": 2,
+      "bytes": 1576,
+      "sha256": "442a26bfb5a3235e266a424b16b5e2181b65a44402eb62ba59cfc9fb87950f6c"
+    },
+    {
+      "file": "rounded/700-u2e000.woff2",
+      "weight": 700,
+      "glyphs": 4,
+      "bytes": 2404,
+      "sha256": "25522bc15436adc884c201049163f82c6840efba736a29b342ef82b311dc9b86"
+    },
+    {
+      "file": "rounded/700-u2f800.woff2",
+      "weight": 700,
+      "glyphs": 55,
+      "bytes": 16900,
+      "sha256": "66fc2b24496dd2385f7aeda6e2f36087dafb607704950f70e47a77f9790a314c"
+    },
+    {
+      "file": "rounded/700-u30000.woff2",
+      "weight": 700,
+      "glyphs": 1,
+      "bytes": 1528,
+      "sha256": "0e1d9a1c460e281f938538f816696a4af1293bb55a54fe5054a5c825b9b3747f"
+    },
+    {
+      "file": "rounded/700-u30800.woff2",
+      "weight": 700,
+      "glyphs": 4,
+      "bytes": 4612,
+      "sha256": "9533fcc5372076d35bbb604d417fe352960b9b3933ad25a0d888515abf60ffc7"
+    },
+    {
+      "file": "rounded/700-u31000.woff2",
+      "weight": 700,
+      "glyphs": 2,
+      "bytes": 2692,
+      "sha256": "3a2de2ab9c34a6d4deee51047fc927832dd1965f487b1fd68f0a5b3c68fe918e"
+    },
+    {
+      "file": "rounded/700-u31800.woff2",
+      "weight": 700,
+      "glyphs": 1,
+      "bytes": 1340,
+      "sha256": "3f5a21dd7a2cd340224823fc740cd4bf93c6087d5bcab7185c8a2ffb1946f3db"
+    }
+  ],
+  "coverage": "Core: current interface/data text. On-demand blocks: complete upstream character set.",
+  "supportedCharacters": 35382,
+  "coreBytes": 625376
+}

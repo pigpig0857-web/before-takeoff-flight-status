@@ -1,0 +1,107 @@
+import type { Flight } from '@/features/flights/types';
+export function demoFlights(today: string): Flight[] {
+  const tomorrow = new Date(`${today}T12:00:00+08:00`);
+  tomorrow.setUTCDate(tomorrow.getUTCDate() + 1);
+  const days = [
+    today,
+    new Date(tomorrow.getTime() + 8 * 3600000).toISOString().slice(0, 10),
+  ];
+  const samples = [
+    [
+      'BR198',
+      '長榮航空',
+      'NRT',
+      '東京／成田',
+      'Tokyo',
+      '08:50',
+      'T2',
+      'C5',
+      '19',
+      'departed',
+    ],
+    [
+      'JX802',
+      '星宇航空',
+      'NRT',
+      '東京／成田',
+      'Tokyo',
+      '10:10',
+      'T1',
+      'B7',
+      '2',
+      'unconfirmed',
+    ],
+    [
+      'SQ877',
+      '新加坡航空',
+      'SIN',
+      '新加坡',
+      'Singapore',
+      '14:20',
+      'T2',
+      'D6',
+      '6',
+      'boarding',
+    ],
+    [
+      'CX479',
+      '國泰航空',
+      'HKG',
+      '香港',
+      'Hong Kong',
+      '16:20',
+      'T1',
+      'B3',
+      '5',
+      'delayed',
+    ],
+    [
+      'CI60',
+      '中華航空',
+      'FRA',
+      '法蘭克福',
+      'Frankfurt',
+      '23:40',
+      'T2',
+      'D4',
+      '3',
+      'unconfirmed',
+    ],
+  ];
+  return days.flatMap((date) =>
+    samples.map(
+      ([
+        number,
+        airline,
+        destinationCode,
+        destination,
+        destinationEnglish,
+        time,
+        terminal,
+        gate,
+        counter,
+        status,
+      ]) => ({
+        id: `${date}-${number}-demo`,
+        number,
+        airlineCode: number.slice(0, 2),
+        airline,
+        date,
+        scheduledDeparture: `${date}T${time}:00+08:00`,
+        reportedDeparture:
+          status === 'delayed' ? `${date}T17:05:00+08:00` : null,
+        reportedTimeKind: 'estimated' as const,
+        destinationCode,
+        destination,
+        destinationEnglish,
+        terminal,
+        gate: date === today ? gate : null,
+        counter,
+        aircraft: null,
+        status: (date === today ? status : 'scheduled') as Flight['status'],
+        sourceStatus: '虛構示範資料',
+        source: 'demo' as const,
+      }),
+    ),
+  );
+}

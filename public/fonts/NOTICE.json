@@ -1,0 +1,12 @@
+{
+  "family": "Noto Sans TC",
+  "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf",
+  "sourceSha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+  "license": "OFL.txt",
+  "format": "woff2",
+  "weightRange": "100 900",
+  "glyphs": 1030,
+  "bytes": 263972,
+  "sha256": "866ae3b80b88ec2f78c71f35f348499b23817fd5366849bcc8338a04f72fe49b",
+  "coverage": "ASCII plus display characters from src; system sans fallback for other input characters"
+}
