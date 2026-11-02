@@ -1,12 +1,12 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
-import type { Flight } from './types';
-import { terminalLabel } from './terminal';
-import { departureAirport } from './departure-airports';
+import type { Flight } from '../../features/flights/types';
+import { terminalLabel } from '../../features/flights/terminal';
+import { departureAirport } from '../../features/flights/departure-airports';
 import { clock, displayDate, relativeDay } from '@/lib/time';
-import { officialAirlines } from './official-airlines';
-import { arrivalAirport, arrivalCity } from './destinations';
+import { officialAirlines } from '../../features/flights/official-airlines';
+import { arrivalAirport, arrivalCity } from '../../features/flights/destinations';
 import {
   airportTimeZone,
   calendarDayLabel,
@@ -14,7 +14,7 @@ import {
   planArrival,
   utcOffset,
   zonedParts,
-} from './journey-time';
+} from '../../features/flights/journey-time';
 
 interface ArrivalInput {
   date: string;

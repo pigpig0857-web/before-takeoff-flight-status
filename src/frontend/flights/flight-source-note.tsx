@@ -1,11 +1,11 @@
-import type { Flight } from './types';
-import { flightHasStaleData } from './result-state';
+import type { Flight } from '../../features/flights/types';
+import { flightHasStaleData } from '../../features/flights/result-state';
 import { retrievedTime } from '@/lib/time';
 import {
   timetableCheckedAt,
   timetableNeedsReview,
   timetableReviewNotice,
-} from './verification';
+} from '../../features/flights/verification';
 
 /** The time belongs to this row's saved schedule, not the whole airline feed. */
 export function FlightSourceNote({

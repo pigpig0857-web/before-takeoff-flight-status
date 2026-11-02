@@ -6,18 +6,18 @@ import {
   arrivalAirport,
   resolveDestination,
   taoyuanAirports,
-} from './destinations';
-import { officialAirlines } from './official-airlines';
+} from '../../features/flights/destinations';
+import { officialAirlines } from '../../features/flights/official-airlines';
 import {
   activeAirlines,
   taoyuanAirlines,
   activeAirlineNames,
   findActiveAirline,
-} from './airline-scope';
+} from '../../features/flights/airline-scope';
 import { AirlineEntrances } from './airline-entrances';
-import type { FlightFilters } from './types';
+import type { FlightFilters } from '../../features/flights/types';
 import { Icon } from '@/components/icon';
-import { departureAirports, kaohsiungAirlineCodes } from './departure-airports';
+import { departureAirports, kaohsiungAirlineCodes } from '../../features/flights/departure-airports';
 
 export function FutureTripPanel({ filters }: { filters: FlightFilters }) {
   const origin = departureAirports[filters.origin || 'TPE'];

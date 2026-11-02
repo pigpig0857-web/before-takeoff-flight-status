@@ -1,13 +1,13 @@
-import type { Flight } from './types';
-import { terminalLabel } from './terminal';
-import { departureAirport } from './departure-airports';
-import { statusLabels } from './types';
+import type { Flight } from '../../features/flights/types';
+import { terminalLabel } from '../../features/flights/terminal';
+import { departureAirport } from '../../features/flights/departure-airports';
+import { statusLabels } from '../../features/flights/types';
 import { clock, relativeDay } from '@/lib/time';
 import { Icon } from '@/components/icon';
-import { arrivalAirport, arrivalCity } from './destinations';
-import { zonedParts, calendarDayLabel } from './journey-time';
+import { arrivalAirport, arrivalCity } from '../../features/flights/destinations';
+import { zonedParts, calendarDayLabel } from '../../features/flights/journey-time';
 import { FlightSourceNote } from './flight-source-note';
-import { timetableReviewNotice } from './verification';
+import { timetableReviewNotice } from '../../features/flights/verification';
 export function FlightCard({
   flight,
   onSelect,

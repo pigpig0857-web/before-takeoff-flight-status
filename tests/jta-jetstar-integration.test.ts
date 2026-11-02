@@ -10,7 +10,7 @@ import {
 import { filterFlights } from '../src/features/flights/filter';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createElement } from 'react';
-import { FlightCard } from '../src/features/flights/flight-card';
+import { FlightCard } from '../src/frontend/flights/flight-card';
 
 const jta = jtaJson as CollectedSnapshot,
   jetstar = jetstarJson as CollectedSnapshot;

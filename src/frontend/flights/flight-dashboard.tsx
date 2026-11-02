@@ -1,7 +1,7 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import type { Flight, FlightResponse } from './types';
-import { statusLabels } from './types';
+import type { Flight, FlightResponse } from '../../features/flights/types';
+import { statusLabels } from '../../features/flights/types';
 import { displayDate, retrievedTime, summarizeDates } from '@/lib/time';
 import { FlightCard } from './flight-card';
 import { ReturnPanel } from './return-panel';
@@ -10,19 +10,19 @@ import { FlightAssistant } from './flight-assistant';
 import { DestinationHint } from './destination-hint';
 import { CountryPicker } from './country-picker';
 import { FutureTripPanel } from './future-trip-panel';
-import { resolveDestination } from './destinations';
+import { resolveDestination } from '../../features/flights/destinations';
 import { Icon } from '@/components/icon';
 import {
   activeAirlines,
   taoyuanAirlines,
   findActiveAirline,
-} from './airline-scope';
-import { flightHasStaleData } from './result-state';
+} from '../../features/flights/airline-scope';
+import { flightHasStaleData } from '../../features/flights/result-state';
 import {
   departureAirports,
   kaohsiungAirlineCodes,
   type DepartureCode,
-} from './departure-airports';
+} from '../../features/flights/departure-airports';
 interface Search {
   origin: DepartureCode;
   date: string;

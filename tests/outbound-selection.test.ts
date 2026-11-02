@@ -4,7 +4,7 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import eva from '../src/server/data/eva-flights.json';
 import { normalizeCollected, type SavedFlight } from '../src/server/providers/collected';
-import { FlightCard } from '../src/features/flights/flight-card';
+import { FlightCard } from '../src/frontend/flights/flight-card';
 
 test('source unavailable allows saved outbound planning; uncertain changes and cancellation remain blocked', () => {
   const flight = normalizeCollected(eva.records.find((r) => r.number === 'BR178') as SavedFlight);

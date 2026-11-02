@@ -1,4 +1,4 @@
-import { FlightDashboard } from '@/features/flights/flight-dashboard';
+import { FlightDashboard } from '@/frontend/flights/flight-dashboard';
 import { taipeiDate } from '@/lib/time';
 import { destinationCountry } from '@/features/flights/destinations';
 import evaSnapshot from '@/server/data/eva-flights.json';

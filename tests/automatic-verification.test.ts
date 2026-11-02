@@ -8,7 +8,7 @@ import {
   normalizeCollected,
   type CollectedSnapshot,
 } from '../src/server/providers/collected';
-import { FlightSourceNote } from '../src/features/flights/flight-source-note';
+import { FlightSourceNote } from '../src/frontend/flights/flight-source-note';
 import { flightHasStaleData } from '../src/features/flights/result-state';
 import {
   verificationFingerprint,

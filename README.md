@@ -22,8 +22,11 @@ Next.js 16 App Router、React 19、TypeScript，使用 pnpm 管理依賴，Node.
 | 目錄 | 用途 |
 |---|---|
 | `src/app/` | 網頁入口、API 與樣式 |
-| `src/features/flights/` | 搜尋、來回行程、時區與 AI 助理畫面 |
-| `src/server/` | 資料供應器與伺服器端查詢服務 |
+| `src/frontend/flights/` | 搜尋、來回行程與 AI 助理畫面 |
+| `src/features/flights/` | 前後端共用的航班型別、時區與篩選規則 |
+| `src/server/services/` | 後端航班查詢與資料整合 |
+| `src/server/providers/` | 後端航空公司及機場資料來源轉換 |
+| `src/server/data/` | 本機航班快照（不隨儲存庫上傳） |
 | `scripts/` | 本機資料處理、蒐集及核對工具 |
 | `tests/` | 功能、時區、資料規則與來源檢查 |
 | `public/` | 網站靜態資產與字型授權聲明 |

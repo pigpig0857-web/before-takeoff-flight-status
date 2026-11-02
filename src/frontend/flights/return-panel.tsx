@@ -2,14 +2,14 @@
 import { useEffect, useRef, useState } from 'react';
 import { Icon } from '@/components/icon';
 import { FlightJourneySummary } from './flight-journey-summary';
-import type { Flight } from './types';
-import type { ReturnFlight, ReturnResponse } from './return-types';
-import { returnIdentity } from './return-types';
-import { arrivalAirport, arrivalCity } from './destinations';
-import { departureAirport, departureAirports } from './departure-airports';
-import { zonedParts, durationLabel, calendarDayLabel } from './journey-time';
+import type { Flight } from '../../features/flights/types';
+import type { ReturnFlight, ReturnResponse } from '../../features/flights/return-types';
+import { returnIdentity } from '../../features/flights/return-types';
+import { arrivalAirport, arrivalCity } from '../../features/flights/destinations';
+import { departureAirport, departureAirports } from '../../features/flights/departure-airports';
+import { zonedParts, durationLabel, calendarDayLabel } from '../../features/flights/journey-time';
 import { displayDate, retrievedTime } from '@/lib/time';
-import { timetableReviewNotice } from './verification';
+import { timetableReviewNotice } from '../../features/flights/verification';
 
 function localLabel(airport: string) {
   return ['TPE', 'KHH'].includes(airport)

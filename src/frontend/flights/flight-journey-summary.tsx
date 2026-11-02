@@ -1,14 +1,14 @@
-import type { Flight } from './types';
-import { departureAirport } from './departure-airports';
-import { arrivalAirport, arrivalCity } from './destinations';
+import type { Flight } from '../../features/flights/types';
+import { departureAirport } from '../../features/flights/departure-airports';
+import { arrivalAirport, arrivalCity } from '../../features/flights/destinations';
 import { clock, displayDate, relativeDay } from '@/lib/time';
 import {
   airportTimeZone,
   zonedParts,
   durationLabel,
   calendarDayLabel,
-} from './journey-time';
-import { terminalLabel } from './terminal';
+} from '../../features/flights/journey-time';
+import { terminalLabel } from '../../features/flights/terminal';
 import { Icon } from '@/components/icon';
 
 /** Primary card always uses published times; optional personal planning stays separate. */

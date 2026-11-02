@@ -1,21 +1,21 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import type { Flight } from './types';
-import { terminalLabel } from './terminal';
-import { departureAirport } from './departure-airports';
-import { statusLabels } from './types';
+import type { Flight } from '../../features/flights/types';
+import { terminalLabel } from '../../features/flights/terminal';
+import { departureAirport } from '../../features/flights/departure-airports';
+import { statusLabels } from '../../features/flights/types';
 import { ArrivalPlanner } from './arrival-planner';
 import { FlightJourneySummary } from './flight-journey-summary';
 import { FlightSourceNote } from './flight-source-note';
 import { Icon } from '@/components/icon';
-import { arrivalAirport, arrivalCity } from './destinations';
+import { arrivalAirport, arrivalCity } from '../../features/flights/destinations';
 import { guideSteps } from '@/features/departure-guide/guide';
 import { retrievedTime } from '@/lib/time';
 import {
   timetableCheckedAt,
   timetableNeedsReview,
   timetableReviewNotice,
-} from './verification';
+} from '../../features/flights/verification';
 export function FlightDetails({
   flight,
   stale,

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { flightHasStaleData } from '../src/features/flights/result-state';
-import { FlightSourceNote } from '../src/features/flights/flight-source-note';
+import { FlightSourceNote } from '../src/frontend/flights/flight-source-note';
 import {
   normalizeCollected,
   type SavedFlight,

@@ -10,8 +10,8 @@ import {
   normalizeCollected,
   type SavedFlight,
 } from '../src/server/providers/collected';
-import { FlightCard } from '../src/features/flights/flight-card';
-import { FlightDetails } from '../src/features/flights/flight-details';
+import { FlightCard } from '../src/frontend/flights/flight-card';
+import { FlightDetails } from '../src/frontend/flights/flight-details';
 import { timetableReviewNotice } from '../src/features/flights/verification';
 import {
   readSourceStops,

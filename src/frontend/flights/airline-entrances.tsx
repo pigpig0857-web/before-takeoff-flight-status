@@ -1,4 +1,4 @@
-import type { OfficialAirline } from './official-airlines';
+import type { OfficialAirline } from '../../features/flights/official-airlines';
 
 const categories = [
   {

@@ -10,9 +10,9 @@ import {
   normalizeCollected,
   type CollectedSnapshot,
 } from '../src/server/providers/collected';
-import { FlightJourneySummary } from '../src/features/flights/flight-journey-summary';
-import { FlightDetails } from '../src/features/flights/flight-details';
-import { FlightSourceNote } from '../src/features/flights/flight-source-note';
+import { FlightJourneySummary } from '../src/frontend/flights/flight-journey-summary';
+import { FlightDetails } from '../src/frontend/flights/flight-details';
+import { FlightSourceNote } from '../src/frontend/flights/flight-source-note';
 import type { Flight } from '../src/features/flights/types';
 const flight = normalizeCollected(
   (jeju as CollectedSnapshot).records.find(

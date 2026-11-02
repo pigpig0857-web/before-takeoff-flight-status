@@ -3,10 +3,10 @@ import {
   destinationCountry,
   resolveDestination,
   taoyuanAirports,
-} from './destinations';
-import type { Flight } from './types';
+} from '../../features/flights/destinations';
+import type { Flight } from '../../features/flights/types';
 import { Icon } from '@/components/icon';
-import { findActiveAirline } from './airline-scope';
+import { findActiveAirline } from '../../features/flights/airline-scope';
 
 export function DestinationHint({
   query,

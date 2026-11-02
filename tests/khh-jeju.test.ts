@@ -23,8 +23,8 @@ import {
 } from '../scripts/automatic-verification/compare';
 import { filterFlights } from '../src/features/flights/filter';
 import { kaohsiungAirlineCodes } from '../src/features/flights/departure-airports';
-import { FlightDetails } from '../src/features/flights/flight-details';
-import { FutureTripPanel } from '../src/features/flights/future-trip-panel';
+import { FlightDetails } from '../src/frontend/flights/flight-details';
+import { FutureTripPanel } from '../src/frontend/flights/future-trip-panel';
 const saved = (khh as CollectedSnapshot).records;
 const flights = saved.map(normalizeCollected);
 const filters = {

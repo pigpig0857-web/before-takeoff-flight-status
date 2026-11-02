@@ -15,7 +15,7 @@ import {
   taoyuanAirlines,
   isActiveAirline,
 } from '../src/features/flights/airline-scope';
-import { FlightDetails } from '../src/features/flights/flight-details';
+import { FlightDetails } from '../src/frontend/flights/flight-details';
 import {
   buildGroups,
   sourceVerifier,

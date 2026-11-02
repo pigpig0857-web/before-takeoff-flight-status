@@ -29,10 +29,10 @@ import {
   sourceVerifier,
   sha,
 } from '../scripts/automatic-verification/sources';
-import { FlightDetails } from '../src/features/flights/flight-details';
-import { FlightCard } from '../src/features/flights/flight-card';
-import { FutureTripPanel } from '../src/features/flights/future-trip-panel';
-import { DestinationHint } from '../src/features/flights/destination-hint';
+import { FlightDetails } from '../src/frontend/flights/flight-details';
+import { FlightCard } from '../src/frontend/flights/flight-card';
+import { FutureTripPanel } from '../src/frontend/flights/future-trip-panel';
+import { DestinationHint } from '../src/frontend/flights/destination-hint';
 const saved = khh as CollectedSnapshot;
 const flights = collectedDataset(saved, '2026-10-15').flights;
 const filters = {

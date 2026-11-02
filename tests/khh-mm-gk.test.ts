@@ -15,7 +15,7 @@ import { enrichPeachFlight } from '../src/server/providers/peach-enrichment';
 import { verificationKey } from '../src/server/services/timetable-verification';
 import { filterFlights } from '../src/features/flights/filter';
 import { terminalLabel } from '../src/features/flights/terminal';
-import { FlightDetails } from '../src/features/flights/flight-details';
+import { FlightDetails } from '../src/frontend/flights/flight-details';
 import {
   buildGroups,
   sourceVerifier,
