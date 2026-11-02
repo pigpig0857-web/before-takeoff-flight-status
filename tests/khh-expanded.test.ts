@@ -28,8 +28,7 @@ const root = 'data/source-samples/crawler/khh-more-airlines-20261020';
 const snapshot = out as CollectedSnapshot;
 const read = async (p: string) => JSON.parse(await fs.readFile(p, 'utf8'));
 const flights = collectedDataset(snapshot, '2026-10-20').flights;
-const python =
-  'C:/Users/88697/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
+const python = process.env.FLIGHT_VERIFICATION_PYTHON || 'python';
 
 test('1533 outbound and 1538 inbound records preserve every accepted staged clock and source', async () => {
   assert.equal(out.records.length, 1533);

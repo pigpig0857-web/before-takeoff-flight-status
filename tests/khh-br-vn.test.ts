@@ -79,7 +79,7 @@ test('new source verification replays actual KHH data without querying TPE', asy
     if (sample.kind === 'collected_eva') {
       const parsed = JSON.parse(
         execFileSync(
-          'C:/Users/88697/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',
+          process.env.FLIGHT_VERIFICATION_PYTHON || 'python',
           [
             '-X',
             'utf8',

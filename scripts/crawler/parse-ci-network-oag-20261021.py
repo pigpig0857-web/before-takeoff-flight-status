@@ -93,4 +93,4 @@ for name,obj in [('candidate-flights.json',dict(records=records)),('audit.json',
 print(json.dumps(report,ensure_ascii=False))
 if __name__=='__main__':
  import subprocess
- subprocess.run([r'C:\Users\88697\AppData\Local\Author Software\nvm\installs\v24.20.0\node.exe','scripts/crawler/audit-ci-network-20261021.mjs'],check=True)
+ subprocess.run(['node','scripts/crawler/audit-ci-network-20261021.mjs'],check=True)

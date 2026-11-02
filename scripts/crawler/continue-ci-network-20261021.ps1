@@ -1,7 +1,7 @@
 param([switch]$Resume)
 $ErrorActionPreference = 'Stop'
-$nodeBinary = 'C:\Users\88697\AppData\Local\Author Software\nvm\installs\v24.20.0\node.exe'
-$pythonBinary = 'C:\Users\88697\miniconda3\python.exe'
+$nodeBinary = (Get-Command node -ErrorAction Stop).Source
+$pythonBinary = (Get-Command python -ErrorAction Stop).Source
 $progressFile = 'data/source-samples/crawler/ci-tpe-20261021/network/progress.json'
 $logFile = 'data/source-samples/crawler/ci-tpe-20261021/network/collection.log'
 $pauseFile = 'data/source-samples/crawler/ci-tpe-20261021/network/pause-request.json'
