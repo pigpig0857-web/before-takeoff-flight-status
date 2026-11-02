@@ -9,6 +9,17 @@ import type { ReturnFlight } from '@/features/flights/return-types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
+const aiRequests = new Map<string, { count: number; resetAt: number }>();
+function allowAiRequest(key: string, limit: number, now = Date.now()) {
+  const bucket = aiRequests.get(key);
+  if (!bucket || now >= bucket.resetAt) {
+    aiRequests.set(key, { count: 1, resetAt: now + 3_600_000 });
+    return true;
+  }
+  if (bucket.count >= limit) return false;
+  bucket.count += 1;
+  return true;
+}
 
 interface ParsedRequest {
   intent: 'search' | 'clarify' | 'unsupported';
@@ -111,6 +122,15 @@ export async function POST(request: Request) {
         { error: '請輸入 1 到 600 字的航班問題。' },
         { status: 400 },
       );
+    }
+    if (process.env.K_SERVICE) {
+      const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
+      if (!allowAiRequest(`ip:${ip}`, 5) || !allowAiRequest('all', 60)) {
+        return NextResponse.json(
+          { error: 'AI 助理目前使用量較高，請稍後再試；一般航班查詢仍可使用。' },
+          { status: 429 },
+        );
+      }
     }
     const today = taipeiDate();
     const parsed = await generateFlightAssistantJson<ParsedRequest>(

@@ -12,6 +12,19 @@ function projectId() {
 }
 
 async function accessToken() {
+  if (process.env.K_SERVICE) {
+    const response = await fetch(
+      'http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token',
+      {
+        headers: { 'Metadata-Flavor': 'Google' },
+        signal: AbortSignal.timeout(5_000),
+      },
+    );
+    if (!response.ok) throw new Error('雲端服務身分無法取得授權。');
+    const data = (await response.json()) as { access_token?: string };
+    if (!data.access_token) throw new Error('雲端服務身分沒有回傳授權。');
+    return data.access_token;
+  }
   const localAppData = process.env.LOCALAPPDATA;
   const gcloudPath = localAppData
     ? `${localAppData}\\Google\\Cloud SDK\\google-cloud-sdk\\bin\\gcloud.cmd`

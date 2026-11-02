@@ -46,6 +46,7 @@ export async function maybeStartTimetableVerification(
   now = Date.now(),
 ) {
   if (
+    process.env.K_SERVICE ||
     process.env.FLIGHT_DATA_MODE === 'demo' ||
     taipeiDate(new Date(now)) > '2026-12-31'
   )
